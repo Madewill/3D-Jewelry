@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "JavaScript and TypeScript example starter project",
   "main": "index.html",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --out-dir public"
-  },
+    "scripts": {
+      "start": "parcel index.html",
+      "build": "parcel build index.html --out-dir dist"
+  }
+  ,
   "devDependencies": {
     "@types/three": "^0.139.0",
     "@types/webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-types-0.4.6.tgz",
